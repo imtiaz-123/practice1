@@ -1,0 +1,402 @@
+#title{
+	background-image: url(../images/content.jpg);
+	color:#d6e0f0;/*shortcut for white color*/
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+.navbar-brand{
+	
+	position: relative;
+	right:5%;
+
+}
+h3{
+   font-family: 'Roboto Slab';
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-top: 15px;
+	color:#b0cac7;
+}
+.container-fluid{
+	padding :3% 10% 10%;
+}
+.brand-logo{
+	width:30%;
+	float: left;
+	margin:10px;
+	
+
+}
+.headings{
+	text-align: center;
+}
+h1{
+	font-family: 'Roboto Slab', serif;
+	font-size:3.5rem;
+	line-height: 1.5;
+}
+h2{
+	font-family: 'Roboto Slab', serif;
+	font-size:2.8rem;
+	line-height: 1.5;
+}
+#content{
+		background-image: url(../images/content.jpg);
+	color:#d6e0f0;/*shortcut for white color*/
+
+
+}
+.players{
+  width:100%;
+   
+}
+.about-us{
+	text-align: center;
+	padding:25% 10% 15%;
+    height:120%;
+
+	
+}
+
+
+
+
+
+/*Updates*/
+
+
+
+
+#updates{
+	text-align: center;
+	padding: 5%  5%;
+	background-image: url(../images/content.jpg);
+	  background-repeat: no-repeat;
+	  background-size: 100% 100%;
+	  color: #d6e0f0;
+}
+.pic{
+	width:100%;
+    height:55vh;
+
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 2% ;
+  display: flex;
+
+
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+
+
+/*About Crew*/
+
+
+
+
+.rosterh2{
+	text-align: center;
+	 color:#fff;
+background-image: url(../images/content.jpg);
+margin: auto;
+color:#d6e0f0;
+}
+.roster{
+	text-align: center;
+		background-image: url(../images/crew.jpg) ;
+	color:#d6e0f0;
+background-repeat: no-repeat;
+background-size:100% 100%; 
+padding-top: 35%;
+/*padding-bottom: 10%;*/
+
+}
+
+.fab:hover{
+	color:#52575d;
+}
+
+
+/*Contact*/
+
+
+
+
+#join-us{
+	color: #fff;
+	text-align: center;
+	background-image: url(../images/content.jpg);
+    padding-bottom: 3%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 4%;
+}
+.textbox{
+	width:100%;
+	overflow: hidden;
+	font-size: 20px;
+
+	padding: 6px;
+	padding-left: 5%;
+}
+.textbox i{
+	width:26px;
+	text-align: center;
+ 
+}
+.textbox input{
+
+	color:#fff;
+}
+.tbox{
+		border:none;
+	outline: none;
+	background:none;
+		border-bottom: 1px solid #00bcd4;
+}
+.bttn{
+
+	border:2px solid #4b5d67;
+	color:#fff;
+   text-align: center;
+   padding:0 5%;
+   margin-left: 7%;
+ }
+.h22{
+	padding-left: 3%;
+}
+/*Horizontal Rule above credit section*/
+hr{
+	margin: 0;
+	background-color:#132743;
+}
+
+
+/*Credits*/
+
+
+
+#credits{
+	text-align: center;
+color:#fff;
+background-image: url(../images/content.jpg);
+padding-bottom: 2%;
+margin:auto;
+padding-top: 2%;
+}
+
+
+/*********************************************************************************************************/
+
+
+
+/*Crew member details index1.html*/
+.bdy{
+background-color: black;
+}
+.pimage{
+width:auto;
+height:auto;
+min-width: 100%;
+min-height: 100%;
+
+}
+
+.tmm-section {
+    min-height: 100%;
+
+}
+.abc{
+		text-align: center;
+		background-image: url(../images/content.jpg);
+ background-repeat: no-repeat;
+ color: #fff;
+ background-size: 100% 100%; 
+ padding-top: 5%;
+}
+
+.tmm-col-md-reverse {
+    flex-direction: column-reverse;
+}
+.tmm-col-md-reverse > * {
+    flex: 1;
+}
+
+@media(min-width: 992px) {
+    .tmm-col-md-reverse {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 992px) {
+    .tmm-md-flex-center {
+        display: flex;
+        flex-direction: column;
+    }
+
+  }
+
+
+
+
+
+
+
+/*Contact us*/
+#mainform{
+	padding: 2% 0%;
+		background-image: url(../images/content.jpg);
+ background-repeat: no-repeat;
+ color: #fff;
+ background-size: 100% 100%; 
+}
+.form-control{
+	background: none;
+}
+.foorm{
+	text-align: center;
+}
+.comp{
+	width:100%;
+	height: 100%;
+}
+/*faqs*/
+#fake{
+	background-image: url(../images/content.jpg);
+ background-repeat: no-repeat;
+ color: #fff;
+ background-size: 100% 100%; 
+
+}
+.hdng{
+	font-size:6rem;
+}
+.box{
+	width:60%;
+	margin:100px auto;
+	border-radius: 7px;
+	box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+	padding-top:2%
+}
+.box .hdng{
+border-radius: 7px;
+text-align:center;
+/*padding:8% 0;*/
+}
+.faqs{
+	padding:10px 20px 10px;
+}
+::-webkit-details-marker{
+	float:right;
+    margin-top:3px;
+
+}
+details{
+	padding:10px;
+	border-radius: 7px;
+	margin-top: 20px
+}
+details summary{
+	outline:none;
+}
+
+
+
+
+
+
+
+
+
+
+/*Become a sponsor*/
+#ownsponsor{
+	text-align: center;
+		background-image: url(../images/content.jpg);
+ background-repeat: no-repeat;
+ color: #fff;
+ background-size: 100% 100%; 
+ padding:5% 2%;
+}
+.bn{
+	background:none;
+	border-color: #fff;
+}
+.shdng{
+	margin-top: 3%;
+}
+.phdng{
+	margin: 3%;
+}
+#testimonials{
+	text-align: center;
+		background-image: url(../images/content.jpg);
+ background-repeat: no-repeat;
+ color: #fff;
+ background-size: 100% 100%; 
+ padding: 6% 2%;
+
+}
+.testimonial-image{
+	margin: 5% 0;
+}
+.testimonial-text{
+	margin-top: 5%;
+}
+.fff{
+margin:0 0.5%;
+color:#fff;
+}
+
+
+
+
+
+/*Updates*/
+
+
+.cntr {
+
+    	background-image: url(../images/content.jpg);
+}
+.tm-section,
+.tm-section-min-h {
+    min-height: 400px;
+}
+.pic1{
+
+	max-height: 100%;
+	max-width:100%;
+}
+.tm-section-min-h,.tm-flex-center{
+		text-align: center;
+		background-image: url(../images/content.jpg);
+ background-repeat: no-repeat;
+ color: #fff;
+ background-size: 100% 100%; 
+}
